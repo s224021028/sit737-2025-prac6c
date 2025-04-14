@@ -80,6 +80,11 @@ To deploy an app to GCP Kubernetes
 ```kubectl logs <pod_name>```
 - Access the application running in the pod with the External IP of the LoadBalancer
 
+### Port forward Kubernetes Service
+To forward traffic from local port to Kubernetes service
+```kubectl port-forward service/calculator-service 8000:3000```
+- Access the application with http://localhost:forwarded_port
+
 ## Testing the Microservice on LocalHost
 To test the microservice, you can:
 
