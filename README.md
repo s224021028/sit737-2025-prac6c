@@ -1,4 +1,4 @@
-# sit737-2025-prac6p
+# sit737-2025-prac6c
 
 ## Prerequisites
 To run this microservice, you need to have the following installed:
@@ -7,7 +7,7 @@ To run this microservice, you need to have the following installed:
 
 ## Installation
 - Clone the repository:
-git clone https://github.com/s224021028/sit737-2025-prac6p.git
+git clone https://github.com/s224021028/sit737-2025-prac6c.git
 
 - Install dependencies:
 npm install express winston
